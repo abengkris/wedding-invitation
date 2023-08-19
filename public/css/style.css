@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-cover-color: #f8f5ff;
+  --bg-profile-color: #857b69;
+  --border-decor-color: #fbe1cb;
+  --border-decor-color-cover: #fbe1cb;
+}
+
+.p-inherit {
+  position: inherit;
+}
+
+.bg-color {
+  background-color: #f8f5ff;
+}
+
+.bg-color-one {
+  background-color: #b1a48c;
+}
+
+.bg-color-two {
+  background-color: #857b69;
+}
+
+.bg-color-three {
+  background-color: #fff;
+}
+
+.bg-color-four {
+  background-color: #000;
+}
+
+.bg-color-mode {
+  background-color: #f8f5ff;
+}
+
+.bg-color-mode-one {
+  background-color: #000;
+}
+
+.font-one {
+  font-size: 2.222rem;
+  font-family: "Dancing Script";
+}
+
+.font-two {
+  font-family: Cinzel;
+}
+
+.font-three {
+  font-family: Manrope;
+}
+
+.font-four {
+  font-family: Lora;
+}
+
+.font-five {
+  font-family: 'Amalfi Coast', sans-serif;
+}
+
+.font-six {
+  font-family: 'josephsophia', sans-serif;
+}
+
+.font-color-profile {
+  color: #fbe1cb;
+}
+
+.font-color-one {
+  color: #b1a48c;
+}
+
+.font-color-two {
+  color: #857b69;
+}
+
+.font-color-three {
+  color: #fff;
+}
+
+.font-color-four {
+  color: #000;
+}
+
+.font-color-mode {
+  color: #000;
+}
+
+.font-color-mode-one {
+  color: #000;
+}
+
+.font-color-mode-two {
+  color: #fff;
+}
+
+.font-color-mode-bg {
+  color: #000;
+}
+
+.font-color-cover {
+  color: #fbe1cb;
+}
+
+.border-color-decor {
+  border-color: #fbe1cb;
+}
+
+.border-color-cover {
+  border-color: #fbe1cb;
+}
+
+.border-color-one {
+  border-color: #b1a48c;
+}
+
+.border-color-two {
+  border-color: #857b69;
+}
+
+.border-color-three {
+  border-color: #fff;
+}
+
+.border-color-four {
+  border-color: #000;
+}
+
+.border-color-one-opacity {
+  border-color: #b1a48c8c;
+}
+
+.top-svg-type-2 {
+  top: 0rem;
+}
+
+.bottom-svg-type-2 {
+  bottom: 9rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .top-svg-type-2 {
+    top: 3rem;
+  }
+
+  .bottom-svg-type-2 {
+    bottom: 9.5rem;
+  }
+}
+
+body {
+  position: relative;
+}
+button {
+  background: #857b69;
+}
+ion-icon {
+  visibility: hidden;
+}
+.hydrated {
+  visibility: inherit;
+}
+.body-single {
+  /* font-family: "Aleo"; */
+  background-color: #fff;
+  max-width: 720px;
+  margin: auto;
+}
+.div10 {
+  margin-top: 6vh;
+}
+.hidden {
+  display: none;
+}
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+    touch-action: none;
+    -ms-touch-action: none;
+}
